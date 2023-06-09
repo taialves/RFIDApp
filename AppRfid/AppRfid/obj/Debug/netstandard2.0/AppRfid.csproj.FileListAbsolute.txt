@@ -1,0 +1,17 @@
+C:\Users\tn7928\Desktop\Curso Xamarin\AppRfid\AppRfid\AppRfid\bin\Debug\netstandard2.0\AppRfid.deps.json
+C:\Users\tn7928\Desktop\Curso Xamarin\AppRfid\AppRfid\AppRfid\bin\Debug\netstandard2.0\AppRfid.dll
+C:\Users\tn7928\Desktop\Curso Xamarin\AppRfid\AppRfid\AppRfid\bin\Debug\netstandard2.0\ref\AppRfid.dll
+C:\Users\tn7928\Desktop\Curso Xamarin\AppRfid\AppRfid\AppRfid\bin\Debug\netstandard2.0\AppRfid.pdb
+C:\Users\tn7928\Desktop\Curso Xamarin\AppRfid\AppRfid\AppRfid\obj\Debug\netstandard2.0\AppRfid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tn7928\Desktop\Curso Xamarin\AppRfid\AppRfid\AppRfid\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\tn7928\Desktop\Curso Xamarin\AppRfid\AppRfid\AppRfid\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\tn7928\Desktop\Curso Xamarin\AppRfid\AppRfid\AppRfid\obj\Debug\netstandard2.0\AppRfid.AssemblyInfoInputs.cache
+C:\Users\tn7928\Desktop\Curso Xamarin\AppRfid\AppRfid\AppRfid\obj\Debug\netstandard2.0\AppRfid.AssemblyInfo.cs
+C:\Users\tn7928\Desktop\Curso Xamarin\AppRfid\AppRfid\AppRfid\obj\Debug\netstandard2.0\AppRfid.csproj.CoreCompileInputs.cache
+C:\Users\tn7928\Desktop\Curso Xamarin\AppRfid\AppRfid\AppRfid\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\tn7928\Desktop\Curso Xamarin\AppRfid\AppRfid\AppRfid\obj\Debug\netstandard2.0\AppRfid.dll
+C:\Users\tn7928\Desktop\Curso Xamarin\AppRfid\AppRfid\AppRfid\obj\Debug\netstandard2.0\ref\AppRfid.dll
+C:\Users\tn7928\Desktop\Curso Xamarin\AppRfid\AppRfid\AppRfid\obj\Debug\netstandard2.0\AppRfid.pdb
+C:\Users\tn7928\Desktop\Curso Xamarin\AppRfid\AppRfid\AppRfid\obj\Debug\netstandard2.0\View\LoginPage.xaml.g.cs
+C:\Users\tn7928\Desktop\Curso Xamarin\AppRfid\AppRfid\AppRfid\obj\Debug\netstandard2.0\AppRfid.csproj.AssemblyReference.cache
+C:\Users\tn7928\Desktop\Curso Xamarin\AppRfid\AppRfid\AppRfid\obj\Debug\netstandard2.0\View\PageEquip2.xaml.g.cs

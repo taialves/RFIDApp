@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppRfid.View.LoginPage">
+    <ScrollView>
+        <StackLayout Orientation="Vertical"  Background="#00001a" >
+
+            <Frame></Frame>
+            <Image Source="rfid" WidthRequest="100"></Image>
+            <Label Text="Login" HorizontalOptions="Center" FontSize="24"></Label>
+            <Entry x:Name="txtCracha" Placeholder="Sua Matricula" TextColor="LightCyan"></Entry>
+            <Entry x:Name="txtSenha" Placeholder="Sua Senha" TextColor="LightCyan" IsPassword="True"></Entry>
+            <Button x:Name="btnLogin" Text="Login" Clicked="btnLogin_Clicked"></Button>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

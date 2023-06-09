@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppRfid.View.PageEquip2">
+    <ContentPage.Content>
+
+        <AbsoluteLayout>
+            <ScrollView AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
+
+                <Grid Padding="0" RowSpacing="0" RowDefinitions="70,*">
+
+                    <!-- Cabeçalho -->
+                    <Grid   BackgroundColor="#022a40" VerticalOptions="StartAndExpand" HeightRequest="50" Padding="10"
+                            RowSpacing="0" ColumnSpacing="0"  ColumnDefinitions="*,*" >
+
+                        <Label Text="Equip 2"   Grid.Column="0" 
+                                FontSize="22"
+                                HorizontalOptions="Start"
+                                VerticalOptions="Center"
+                                TextColor="White"/>
+                        <Image Source="rfid" Grid.Column="1" HorizontalOptions="End" />
+                    </Grid>
+
+                    <!-- Conteudo principal -->
+                    <Frame BackgroundColor="WhiteSmoke" Grid.Row="1" VerticalOptions="Fill" HorizontalOptions="Center">
+                        <StackLayout>
+
+                            <Frame Padding="5" Margin="0,0,0,10"  WidthRequest="300" BackgroundColor="#f2f2f2" HorizontalOptions="Center" VerticalOptions="Center">
+                                <StackLayout BackgroundColor="Transparent">
+                                    <Label Text="199974765499883333" 
+                                        HorizontalOptions="Center"
+                                        FontSize="25"
+                                        TextColor="Black"
+                                        FontFamily="courier"/>
+                                    <Button Text="ERRO REIMPRIMIR"></Button>
+                                </StackLayout>
+                            </Frame>
+
+                            <Frame Padding="5"  Margin="0,0,0,10" WidthRequest="300" BackgroundColor="#f2f2f2" HorizontalOptions="Center" VerticalOptions="Center">
+                                <StackLayout BackgroundColor="Transparent">
+                                    <Label Text="19997476549988444" 
+                                            HorizontalOptions="Center"
+                                            FontSize="25"
+                                            TextColor="Black"
+                                            FontFamily="courier"/>
+                                    <Button Text="ERRO REUTILIZADA"></Button>
+                                </StackLayout>
+                            </Frame>
+                            <Frame Padding="5" Margin="0,0,0,10"  WidthRequest="300" BackgroundColor="#f2f2f2" HorizontalOptions="Center" VerticalOptions="Center">
+                                <StackLayout BackgroundColor="Transparent">
+                                    <Label Text="199974765499883333" 
+                                        HorizontalOptions="Center"
+                                        FontSize="25"
+                                        TextColor="Black"
+                                        FontFamily="courier"/>
+                                    <Button Text="ERRO REIMPRIMIR"></Button>
+                                </StackLayout>
+                            </Frame>
+
+                        </StackLayout>
+                    </Frame>
+                </Grid>
+
+
+
+            </ScrollView>
+            <Button
+                    Text="«"
+                    BackgroundColor="	#303030"
+                    CornerRadius="50"
+                    FontSize="20"
+                    AbsoluteLayout.LayoutBounds="0.03, 0.9, 50, 50"
+                    AbsoluteLayout.LayoutFlags="PositionProportional" 
+                    BorderColor="#FF3300"
+                    BorderWidth="2"
+                    Clicked="Button_Clicked"
+                />
+            <Button
+                    Text="Atualizar Caixas"
+                    Background="#303030"
+                    FontSize="20"
+                    CornerRadius="10"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    AbsoluteLayout.LayoutBounds="0.5,0.99,300,60"
+                    AbsoluteLayout.LayoutFlags="PositionProportional" 
+                />
+        </AbsoluteLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>
