@@ -65,13 +65,14 @@
 
             </ScrollView>
             <Button
-                    Text="«"
+                    Text="&lt;"
                     BackgroundColor="	#303030"
                     CornerRadius="50"
                     FontSize="20"
+                TextColor="#fff"
                     AbsoluteLayout.LayoutBounds="0.03, 0.9, 50, 50"
                     AbsoluteLayout.LayoutFlags="PositionProportional" 
-                    BorderColor="#FF3300"
+                    BorderColor="Gray"
                     BorderWidth="2"
                     Clicked="Button_Clicked"
                 />
@@ -79,6 +80,7 @@
                     Text="Atualizar Caixas"
                     Background="#303030"
                     FontSize="20"
+                TextColor="#fff"
                     CornerRadius="10"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"

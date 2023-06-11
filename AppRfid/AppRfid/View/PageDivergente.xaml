@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppRfid.View.PageDivergente">
+    <ContentPage.Content >
+        <StackLayout>
+            <Grid 
+                BackgroundColor="#fbfbfb"
+                Padding="10"
+                RowDefinitions="auto,auto,auto"
+                VerticalOptions="FillAndExpand"
+                >
+
+                <Frame Grid.Row="0"
+                       BackgroundColor="#fefffb">
+                    <StackLayout >
+                        <Label Text="SSCC: 100944599655462778393" 
+                               TextColor="#000" 
+                               HorizontalOptions="CenterAndExpand"
+                               FontSize="20" Margin="0,0,0,10"/>
+                        <Grid ColumnDefinitions="*,*">
+                            <Frame Grid.Column="0" BackgroundColor="#cddc3b" 
+                                   Padding="0"
+                                   CornerRadius="10">
+                                <StackLayout>
+                                    <Label Text="12" HorizontalOptions="CenterAndExpand"
+                                           FontSize="60"    
+                                           TextColor="#fff"/>
+                                    <Label Text="QTD Esperada" TextColor="#fff" 
+                                           HorizontalTextAlignment="Center"
+                                           VerticalOptions="EndAndExpand"
+                                           FontSize="17"
+                                           Background="#66a134"
+                                           Padding="0,0,0,5"/>
+                                </StackLayout>
+                            </Frame>
+                            <Frame Grid.Column="1" BackgroundColor="#fc114c" 
+                                   Padding="0"
+                                   CornerRadius="10">
+                                <StackLayout>
+                                    <Label Text="10" HorizontalOptions="CenterAndExpand"
+                                           FontSize="60"    
+                                           TextColor="#fff"
+                                           />
+                                    <Label Text="QTD Lida" TextColor="#fff" 
+                                           HorizontalTextAlignment="Center"
+                                           VerticalOptions="EndAndExpand"
+                                           FontSize="17"
+                                           Padding="0,0,0,5"
+                                           Background="#d31d62"/>
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+                <Frame Grid.Row="1"
+                       HeightRequest="200"
+                       Margin="0,10,0,0"
+                       BackgroundColor="#fefffb" Padding="0">
+                    <StackLayout Padding="5">
+                        <Label Text="Há 2 etiquetas a mais nessa caixa" 
+                               TextColor="#fff" 
+                               BackgroundColor="#D31D62"
+                               FontSize="20"
+                               HorizontalTextAlignment="Center"
+                               Padding="5"/>
+
+                        <ListView BackgroundColor="WhiteSmoke">
+                            <ListView.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>2 pares 3536</x:String>
+                                    <x:String>1 pares 2021</x:String>
+                                    <x:String>3 pares 3940</x:String>
+                                    <x:String>3 pares 3940</x:String>
+                                </x:Array>
+                            </ListView.ItemsSource>
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Padding="10">
+                                            <Label HorizontalTextAlignment="Center" Text="{Binding}" FontSize="20" TextColor="#000" />
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate >
+                        </ListView>
+
+                    </StackLayout>
+                </Frame>
+                <Frame Grid.Row="2"
+                       HeightRequest="200"
+                       Margin="0,10,0,0"
+                       BackgroundColor="#fefffb" Padding="0">
+                    <StackLayout Padding="5">
+                        <Label Text="Etiquetas lidas"
+                               TextColor="#fff" 
+                               BackgroundColor="#66A134"
+                               FontSize="20"
+                               HorizontalTextAlignment="Center"
+                               Padding="5"/>
+
+                        <ListView BackgroundColor="WhiteSmoke">
+                            <ListView.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>M2N3O4P5Q6R7S8T9U0V1W2X3</x:String>
+                                    <x:String>M2N3O4P5Q6R7S8T9U0V1W2X3</x:String>
+                                    <x:String>M2N3O4P5Q6R7S8T9U0V1W2X3</x:String>
+                                    <x:String>K6L7M8N9O0P1Q2R3S4T5U6V7</x:String>
+                                    <x:String>W8X9Y0Z1A2B3C4D5E6F7G8H9</x:String>
+                                    <x:String>M2N3O4P5Q6R7S8T9U0V1W2X3</x:String>
+                                    <x:String>U2V3W4X5Y6Z7A8B9C0D1E2F3</x:String>
+                                    <x:String>G4H5I6J7K8L9M0N1O2P3Q4R5</x:String>
+                                    <x:String>S6T7U8V9W0X1Y2Z3A4B5C6D7</x:String>
+                                    <x:String>E8F9G0H1I2J3K4L5M6N7O8P9</x:String>
+                                </x:Array>
+                            </ListView.ItemsSource>
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Padding="10">
+                                            <Label HorizontalTextAlignment="Center" Text="{Binding}" FontSize="20" TextColor="#000" />
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate >
+                        </ListView>
+
+                    </StackLayout>
+                </Frame>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

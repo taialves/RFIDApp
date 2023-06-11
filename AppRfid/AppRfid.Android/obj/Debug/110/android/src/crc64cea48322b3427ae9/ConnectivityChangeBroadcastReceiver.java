@@ -19,8 +19,9 @@ public class ConnectivityChangeBroadcastReceiver
 	public ConnectivityChangeBroadcastReceiver ()
 	{
 		super ();
-		if (getClass () == ConnectivityChangeBroadcastReceiver.class)
+		if (getClass () == ConnectivityChangeBroadcastReceiver.class) {
 			mono.android.TypeManager.Activate ("Plugin.Connectivity.ConnectivityChangeBroadcastReceiver, Plugin.Connectivity", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

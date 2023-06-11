@@ -9,7 +9,7 @@
 
         <AbsoluteLayout>
             <ScrollView AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
-           
+
                 <Grid Padding="0" RowSpacing="0" RowDefinitions="70,*">
 
                     <!-- Cabeçalho -->
@@ -45,7 +45,8 @@
                                         FontSize="25"
                                         TextColor="Black"
                                         FontFamily="courier"/>
-                                    <Button Text="ERRO REUTILIZADA"></Button>
+                                    <Button Text="ERRO DIVERGENTE" Clicked="Button_Clicked_1"
+                                            ></Button>
                                 </StackLayout>
                             </Frame>
                             <Frame Padding="5"  Margin="0,0,0,10" WidthRequest="300" BackgroundColor="#f2f2f2" HorizontalOptions="Center" VerticalOptions="Center">
@@ -78,13 +79,11 @@
                                     <Button Text="ERRO REIMPRIMIR"></Button>
                                 </StackLayout>
                             </Frame>
-                            
+
                         </StackLayout>
                     </Frame>
                 </Grid>
-
                 
-            
             </ScrollView>
             <Button
                     Text=">"
@@ -93,14 +92,16 @@
                     FontSize="22"
                     AbsoluteLayout.LayoutBounds="0.98, 0.9, 50, 50"
                     AbsoluteLayout.LayoutFlags="PositionProportional" 
-                    BorderColor="#FF3300"
+                    BorderColor="Gray"
                     BorderWidth="2"
+                TextColor="#fff"
                 Clicked="Button_Clicked"/>
             <Button
                     Text="Atualizar Caixas"
                     Background="#303030"
                     FontSize="20"
                     CornerRadius="10"
+                    TextColor="#fff"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     AbsoluteLayout.LayoutBounds="0.5,0.99,300,60"
